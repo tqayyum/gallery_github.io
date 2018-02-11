@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: white;
 }
 
 .article{
@@ -20,7 +20,7 @@ body {
 	font-size: 22px;
     height: 10px;
     position: relative;
-    color: white;
+    color: black;
 		left:20px;
 }
 
@@ -31,7 +31,7 @@ body {
 	    top: 6px;
 	    left: 90px;
 	    font-style: italic;
-	    color: white;
+	    color: black;
 
 }
 
@@ -40,7 +40,7 @@ body {
     height: 10px;
     position: relative;
     left: 95px;
-    color: white;
+    color: black;
 }
 
 .dDescription {
@@ -48,5 +48,5 @@ body {
 height: 10px;
 position: relative;
 top: 5px;
-color: white;
+color: black;
 }
