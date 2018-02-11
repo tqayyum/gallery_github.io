@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: cornflowerblue;
 }
 
 .article{
@@ -51,3 +51,14 @@ position: relative;
 top: -30px;
 color: black;
 }
+
+.foot {
+	position: relative;
+    top: 500px;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
