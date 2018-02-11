@@ -59,5 +59,5 @@ function normalizeTrackData(data) {
 
 
 app.listen(3000, function () {
-	console.log('Are you listening');
+	console.log('Are you listening here');
 });
