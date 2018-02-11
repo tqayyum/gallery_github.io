@@ -11,7 +11,7 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 const gallery_Api = {
-	url: 'https://www.cbsnews.com/api/v1/gallery/nasas-real-life-gravity-pics/',
+	url: 'https://www.cbsnews.com/api/v1/gallery/pyeongchang-olympics-opening-ceremony/',
 	json: true
 }
 
