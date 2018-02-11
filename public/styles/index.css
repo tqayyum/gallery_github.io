@@ -17,36 +17,37 @@ body {
 }
 
 .dHeadline {
-	font-size: 22px;
     height: 10px;
     position: relative;
     color: black;
-		left:20px;
+		left:50px;
+		top: 10px;
 }
 
 .dCaption {
-	font-size: 10px;
-	    height: 10px;
-	    position: relative;
-	    top: 6px;
-	    left: 90px;
-	    font-style: italic;
-	    color: black;
+    font-size: 10px;
+    height: 10px;
+    position: relative;
+    top: -290px;
+    left: 320px;
+    font-style: italic;
+    color: black
 
 }
 
 .dPhotoCredit {
 	font-size: 8px;
-    height: 10px;
-    position: relative;
-    left: 95px;
-    color: black;
+height: 10px;
+position: relative;
+left: 281px;
+top: -8px;
+color: black;
 }
 
 .dDescription {
 	font-size: 15px;
 height: 10px;
 position: relative;
-top: 5px;
+top: -30px;
 color: black;
 }
