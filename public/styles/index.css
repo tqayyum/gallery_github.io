@@ -1,0 +1,33 @@
+body {
+	background: cornflowerblue;
+}
+
+.gImage {
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+
+.dHeadline {
+	border: 2px solid red;
+	height: 10px;
+	width: 10px;
+}
+
+.dCaption {
+	border: 2px solid blue;
+	height: 10px;
+	width: 10px;
+}
+
+.dPhotoCredit {
+	border: 2px solid green;
+	height: 10px;
+	width: 10px;
+}
+
+.dDescription {
+	border: 2px solid purple;
+	height: 10px;
+	width: 10px;
+}
