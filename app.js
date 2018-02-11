@@ -18,9 +18,9 @@ const gallery_Api = {
 app.get('/', function(req,res) {
 	request(gallery_Api)
 		.then(function(data) {
-			var showData = (normalizeTrackData(data));
-			res.send(showData);
-			//res.render('gallery');
+			var showData = normalizeTrackData(data);
+			// res.send(showData);
+			res.render('gallery', showData)
 		})
 		.catch(function(err) {
 			console.log(err);
@@ -32,62 +32,20 @@ function normalizeTrackData(data) {
 		response:{
 			data:{
 				items: {
-					data:[ {
+					data:[{
+						headline: dHeadline,
+						caption: dCaption,
+						photoCredit: dPhotoCredit,
+						description: dDescription,
 						images: {
 							large: {
-								path:
-									imageUrl
+								path: imageUrl
 							}
 						}
 					}]
 				}
-			} 
-		},
-
-		response: {
-			data: {
-				items: {
-					data: [ {
-						headline:
-							dHeadline
-					}]
-				}
-			}
-		},
-
-		response: {
-			data: {
-				items: {
-					data: [ {
-						caption:
-							dCaption
-					}]
-				}
-			}
-		},
-
-		response: {
-			data: {
-				items: {
-					data: [ {
-						photoCredit:
-							dPhotoCredit
-					}]
-				}
-			}
-		},
-
-		response: {
-			data: {
-				items: {
-					data: [ {
-						description:
-							dDescription
-					}]
-				}
 			}
 		}
-	
 } = data;
 
 	return { 
@@ -96,8 +54,7 @@ function normalizeTrackData(data) {
 		dCaption,
 		dPhotoCredit,
 		dDescription
-	}
-
+		}
 }
 
 
