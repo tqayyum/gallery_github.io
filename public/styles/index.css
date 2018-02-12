@@ -2,10 +2,10 @@ body {
 	background: cornflowerblue;
 }
 
-.article{
-		position: relative;
-		left: 280px;
-		width: 300px;
+.article {
+	position: relative;
+	left: 280px;
+	width: 300px;
 }
 
 .gImage {
@@ -20,8 +20,8 @@ body {
     height: 10px;
     position: relative;
     color: black;
-		left:50px;
-		top: 10px;
+	left: 50px;
+	top: 10px;
 }
 
 .dCaption {
@@ -37,19 +37,19 @@ body {
 
 .dPhotoCredit {
 	font-size: 8px;
-height: 10px;
-position: relative;
-left: 281px;
-top: -8px;
-color: black;
+	height: 10px;
+	position: relative;
+	left: 281px;
+	top: -8px;
+	color: black;
 }
 
 .dDescription {
 	font-size: 15px;
-height: 10px;
-position: relative;
-top: -30px;
-color: black;
+	height: 10px;
+	position: relative;
+	top: -30px;
+	color: black;
 }
 
 .foot {
