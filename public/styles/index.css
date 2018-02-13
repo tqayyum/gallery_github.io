@@ -3,8 +3,8 @@ body {
 }
 
 .article {
+	margin: 0 auto;
 	position: relative;
-	left: 280px;
 	width: 300px;
 }
 
