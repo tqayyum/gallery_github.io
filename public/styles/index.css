@@ -11,7 +11,7 @@ body {
 .gImage {
 	border: 2px solid black;
 	height: 300px;
-	width: 300px;
+	width: 436px;
 	position: relative;
 	top: 20px;
 }
@@ -52,9 +52,16 @@ body {
 	color: black;
 }
 
-.foot {
+.header {
+	margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
 	position: relative;
-    top: 500px;
+	top: 500px;
+    text-align: right;
 }
 
 html {
@@ -62,3 +69,7 @@ html {
     overflow-x: hidden;
 }
 
+.bodyHandlebar {
+	margin: 0 auto;
+	width: 95%;
+}
