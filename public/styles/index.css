@@ -2,56 +2,63 @@ body {
 	background: cornflowerblue;
 }
 
-.article {
+.bodyHandlebar{
 	margin: 0 auto;
-	position: relative;
-	width: 300px;
 }
 
-.gImage {
-	border: 2px solid black;
-	height: 300px;
-	width: 436px;
-	position: relative;
-	top: 20px;
+.article {
+
 }
 
-.dHeadline {
-    height: 10px;
+.dHeadline{
+	position: relative;
+	color: black;
+	text-align: center;
+}
+.g1Contain{
+	width: 100%;
+	text-align: center;
+	float: left;
+	}
+
+.g1Image {
+	height: 350px;
+  position: relative;
+	padding-right: 40px;
+	width: 585px;
+}
+
+
+.capContain{
+	float: right;
+    width: 27%;
     position: relative;
-    color: black;
-	left: 50px;
-	top: 10px;
+    top: -290px;
+    left: auto;
 }
 
 .dCaption {
-    font-size: 10px;
-    height: 10px;
-    position: relative;
-    top: -290px;
-    left: 320px;
-    font-style: italic;
-    color: black
-
+	font-size: 10px;
+	font-style: italic;
+	color: black;
 }
 
 .dPhotoCredit {
 	font-size: 8px;
-	height: 10px;
-	position: relative;
-	left: 281px;
-	top: -8px;
-	color: black;
+    position: relative;
+    left: 281px;
+    top: auto;
+    color: black;
+    text-align: center;
 }
 
 .dDescription {
 	font-size: 15px;
-	height: 10px;
-	position: relative;
-	top: -30px;
-	color: black;
+    position: relative;
+    left: 200px;
+    color: black;
+    text-align: left;
 }
-
 .header {
 	margin: 0 auto;
     padding: 20px;
